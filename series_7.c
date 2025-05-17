@@ -6,17 +6,17 @@
 int main()
 {
     int n, i = 1,term = 2;
-    double sum = 1;
+    double product = 1;
 
-    printf("How many terms do you want to sum? ");
+    printf("How many terms do you want to multiply? ");
     scanf("%d", &n);
 
     while (i <= n)
     {
-        sum = sum * pow(term, 3);
+        product = product * pow(term, 3);
         term = term + 2;
         i++;
     }
 
-    printf("Sum is %.0lf\n", sum);
+    printf("Product is %.0lf\n", product);
 }

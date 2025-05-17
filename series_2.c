@@ -16,6 +16,5 @@ int main()
         term = term + 2;
         i++;
     }
-
     printf("Sum is %d\n", sum);
 }
